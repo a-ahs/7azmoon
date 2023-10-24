@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="D:\Xampp\htdocs\7Azmoon\phpunit.xml" tests="3" assertions="3" errors="0" failures="2" skipped="0" time="0.327629">
+    <testsuite name="Application Test Suite" tests="3" assertions="3" errors="0" failures="2" skipped="0" time="0.327629">
+      <testsuite name="API\V1\Users\UserTest" file="D:\Xampp\htdocs\7Azmoon\tests\API\V1\Users\UserTest.php" tests="2" assertions="2" errors="0" failures="2" skipped="0" time="0.326199">
+        <testcase name="testCreateNewUser" file="D:\Xampp\htdocs\7Azmoon\tests\API\V1\Users\UserTest.php" line="9" class="API\V1\Users\UserTest" classname="API.V1.Users.UserTest" assertions="1" time="0.229853">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">API\V1\Users\UserTest::testCreateNewUser&#13;
+Failed asserting that 500 matches expected 201.
+&#13;
+D:\Xampp\htdocs\7Azmoon\tests\API\V1\Users\UserTest.php:18</failure>
+        </testcase>
+        <testcase name="testSendWrongData" file="D:\Xampp\htdocs\7Azmoon\tests\API\V1\Users\UserTest.php" line="31" class="API\V1\Users\UserTest" classname="API.V1.Users.UserTest" assertions="1" time="0.096346">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">API\V1\Users\UserTest::testSendWrongData&#13;
+Failed asserting that 500 matches expected 422.
+&#13;
+D:\Xampp\htdocs\7Azmoon\tests\API\V1\Users\UserTest.php:35</failure>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\ExampleTest" file="D:\Xampp\htdocs\7Azmoon\tests\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.001430">
+        <testcase name="test_that_base_endpoint_returns_a_successful_response" file="D:\Xampp\htdocs\7Azmoon\tests\ExampleTest.php" line="15" class="Tests\ExampleTest" classname="Tests.ExampleTest" assertions="1" time="0.001430"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
