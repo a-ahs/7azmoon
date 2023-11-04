@@ -2,7 +2,7 @@
 
     namespace App\Repositories\Contracts;
 
-    interface userRepositoryInterface extends repositoryInterface
+    interface quizRepositoryInterface extends repositoryInterface
     {
         
     }
